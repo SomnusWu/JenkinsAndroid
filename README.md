@@ -15,7 +15,7 @@ http://www.linuxidc.com/Linux/2015-12/126423.htm
 
 
 ###构建触发器中：Execute windows batch command 
-执行脚本 ： gradlew assembleFlavors_123Release
+执行脚本 ： 'gradlew assembleFlavors_123Release'  
 （Studio  Terminal中执行命令）
 
 该脚本需要在AndroidProject 中app build.gradle 配置
