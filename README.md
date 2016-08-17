@@ -49,7 +49,8 @@ android {
 ##立即构建
 立即构建该项目
 ##Console Output
-打开控制台 即可看见构建输出
+打开控制台 即可看见构建输出  
+
 ......
 ..Finished:SUCCESS  
 
