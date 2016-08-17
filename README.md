@@ -25,19 +25,19 @@ android ->productFlavors
 ```java  
   
 android {
-  buildTypes {
-      debug {
+  productFlavors {
+      flavors_release {
           buildConfigField "String", "API_URL","\"http://test.example.com/api\""
           buildConfigField "boolean", "LOG_HTTP_CALLS", "true"
           //getResource().getString(R.string.app_name)
           resValue "string", "app_name", "Example DEBUG"
           signingConfig signingConfigs.releaseKey
       }
-      release {
+      flavors_123 {
           buildConfigField "String", "API_URL", "\"http://example.com/api\""
           buildConfigField "boolean", "LOG_HTTP_CALLS", "false"
           resValue "string", "app_name", "Example"
-          signingConfig signingConfigs.releaseKey
+          signingConfig signingConfigs.debugKey
       }
   }
 }
