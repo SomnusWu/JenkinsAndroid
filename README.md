@@ -22,6 +22,8 @@ http://www.linuxidc.com/Linux/2015-12/126423.htm
 定义不同的product flavor 可实现打包不同环境
 android ->productFlavors
 
+```java  
+  
 android {
   buildTypes {
       debug {
@@ -39,6 +41,9 @@ android {
       }
   }
 }
+  
+```
+
 
 #Save
 ##立即构建
@@ -50,6 +55,7 @@ android {
 
 
 #构建成功!!!!
+
 
 
 
